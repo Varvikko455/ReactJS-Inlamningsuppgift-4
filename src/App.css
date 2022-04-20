@@ -1,0 +1,126 @@
+*root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.App {
+  display: flex;
+  background: #231F42;
+  width: 375px;
+  height: 667px;
+  
+}
+
+.title{
+  color: #F56B9A;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  font-family: 'Sansita', sans-serif
+}
+
+.event-artist{
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  position: absolute;
+  top: -15px;
+  color: #FFFFFF;
+
+  text-shadow: 1px 1px 0px #F56B9A;
+}
+
+.event-location{
+  font-family: Fira Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  position: absolute;
+  top: 18px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+    height: 66px;
+    width: 375px;
+    color: white;
+    cursor: pointer;
+}
+    .date-box {
+      margin-top: 0;
+      
+      margin-left: 15px;
+      width: 66px;
+      height: 66px;
+      border-radius: 3px;
+      border: 1px solid #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .event-box {
+      width: 100%;
+      height: 100%;
+      margin-left: 90px;
+      margin-top: 0px;
+      position: absolute;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .event-time {
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      margin-top: 50px;
+      font-family: Fira Sans;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #D0D0D0;
+    }
+    .event-price {
+      position: absolute;
+      width: 100%;
+      margin-top: 50px;
+      margin-left: 220px;
+      
+      font-family: Fira Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 20px;
+      display: flex;
+      align-items: flex-end;
+      text-align: right;
+
+      color: #37AEAB;
+    }
+    

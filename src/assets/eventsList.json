@@ -1,0 +1,34 @@
+[
+    {
+        "artist": "Lasse-Stefanz",
+        "location": "Kjell Härnqvistsalen",
+        "date": "21 MAR",
+        "price": "350 sek",
+        "startTime": "19.00",
+        "endTime":"21.00"
+    },
+    {
+        "artist": "Pelle trubadur",
+        "location": "Pubelipuben",
+        "date": "29 MAR",
+        "price": "110 sek",
+        "startTime": "22.00",
+        "endTime":"00.00"
+    },
+    {
+        "artist": "Kajsas kör",
+        "location": "Götaplatsen",
+        "date": "10 APR",
+        "price": "99 sek",
+        "startTime": "15.00",
+        "endTime":"16.00"
+    },
+    {
+        "artist": "Klubb Untz",
+        "location": "Din favoritkällare",
+        "date": "17 APR",
+        "price": "150 sek",
+        "startTime": "22.00",
+        "endTime":"du tröttnar"
+    }
+]

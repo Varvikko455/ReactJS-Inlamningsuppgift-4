@@ -1,0 +1,129 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.welcomeText{
+    position: absolute;
+    width: 202px;
+    height: 27px;
+    left: 87px;
+    top: 99px;
+
+    font-style: italic;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+    .artist{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 281px;
+        height: 43px;
+        left: 51px;
+        top: 170px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 41px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #F56B9A;
+    }
+
+    .dateTime{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 284px;
+        height: 25px;
+        left: 49px;
+        top: 250px;
+
+        font-family: Fira Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #37AEAB;
+    }
+    .date{
+        margin-right: 8px;
+    }
+
+.location{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 272px;
+    height: 37px;
+    left: 55px;
+    top: 257px;
+    
+    font-family: Fira Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.price{
+    position: absolute;
+    width: 145px;
+    height: 50px;
+    left: 115px;
+    top: 390px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 1px 1px 0px #F56B9A;
+}
+
+.button {
+    position: absolute;
+    width: 310px;
+    height: 60px;
+    left: 33px;
+    top: 573px;
+    background: #37AEAB;
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
